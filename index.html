@@ -62,6 +62,7 @@
                     <input type="text" id="zip" name="user-zip" placeholder="ex:21354" required>
                 </div>
             </fieldset>
+            
             <fieldset>
 
                 <legend class="news-header">Newsletter</legend>
@@ -75,16 +76,31 @@
                 <br>
 
                 <input type="checkbox" id="javascript-news" value="javascript-news" name="javascript"><label for="javascript">Javascript News</label>
+
             </fieldset>
+
             <fieldset>
+
                 <label class="format-label">Newsletter Format</label>
                 <br>
+
                 <input type="radio" id="format-html" value="HTML" name="format-radio"><label for="format-html">HTML</label>
+                <br>
 
+                <input type="radio" id="plain-format" value="Plain" name="plaintext-format"><label for="plain-format">Plain text</label>
+                <br>
 
+                <label for="more-info"><em>Other topics you'd like to hear about</em></label>
+                <br>
+
+                <textarea id="more-info" name="more-info" placeholder="Type here!"></textarea>
 
             </fieldset>
+            <button type="submit">Sign Up</button>
         </form>
+        <footer>
+            <small><Em>Copyright, The Code Review</Em></small>
+        </footer>
     </main>
 </body>
 
