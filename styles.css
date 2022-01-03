@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", sans-serif;
+}
+
+.main-header {
+    text-align: center;
+}
