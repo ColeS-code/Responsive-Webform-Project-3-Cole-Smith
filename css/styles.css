@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+#header-title {
+    color: whitesmoke;
+    background:darkslateblue;
+    margin-top: 0;
+    padding: .5em;
+}
+
+h2 {
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+#header-caption {
+    color: silver;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    border-bottom: 3px solid darkslateblue;
+}
+
+fieldset {
+    border: none;
+}
+
+.personal-info label {
+    color: gray;
+}
+
+.contact-header {
+    font-weight: 600;
+}
+
+.personal-info {
+    padding-left: 3px;
+}
+
+#zip {
+    width: 50%;
+}
+/* ^------ base element styles ------^ */
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: .5em;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background: silver;
+    border-color: silver;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 9px 9px 9px 0px;
+}
+
+#plain-format {
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+}
