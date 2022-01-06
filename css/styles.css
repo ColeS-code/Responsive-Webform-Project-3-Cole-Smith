@@ -104,7 +104,29 @@ select:focus {
 }
 /* ------ Media Queries -------*/
 @media screen and (min-width: 768px) {
-    
+    .entry-field {
+        display: flex;
+    }
+    label[for="name"],
+    label[for="email"],
+    label[for="phone"],
+    label[for="address"],
+    label[for="city"],
+    label[for="state"],
+    label[for="zip"] {
+        width: 30%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: 70%;
+    }
+
+    #zip {
+        width: 25%;
+    }
 }
     
 
