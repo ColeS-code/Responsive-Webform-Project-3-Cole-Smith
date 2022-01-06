@@ -34,7 +34,9 @@ fieldset {
     color: gray;
 }
 
-.contact-header {
+.contact-header,
+.format-label,
+.news-header {
     font-weight: 600;
 }
 
@@ -46,6 +48,11 @@ fieldset {
     width: 50%;
 }
 /* ^------ base element styles ------^ */
+
+
+.newsletter-check {
+    padding-top: 15px;
+}
 
 input[type="text"],
 input[type="tel"],
@@ -63,6 +70,15 @@ input[type="checkbox"],
 input[type="radio"] {
     margin: 9px 9px 9px 0px;
 }
+button {
+    width: 100%;
+    background: darkslateblue;
+    color: whitesmoke;
+}
+
+#format-html {
+    margin-top: 20px;
+}
 
 #plain-format {
     margin-bottom: 25px;
@@ -71,4 +87,26 @@ input[type="radio"] {
 textarea {
     width: 100%;
     margin-top: 10px;
+    background: silver;
 }
+
+#copyright-footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: lightgray;
+  transition: all 0.3s ease-in;     
+}
+/* ------ Media Queries -------*/
+@media screen and (min-width: 768px) {
+    
+}
+    
+
+
+    
