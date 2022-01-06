@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-family: "Merriweather";
+}
+
 header {
     text-align: center;
 }
@@ -86,6 +90,7 @@ button {
 
 textarea {
     width: 100%;
+    padding: 15px;
     margin-top: 10px;
     background: silver;
 }
@@ -114,14 +119,15 @@ select:focus {
     label[for="city"],
     label[for="state"],
     label[for="zip"] {
-        width: 30%;
+        width: 20%;
     }
 
     input[type="text"],
     input[type="email"],
     input[type="tel"],
     select {
-        width: 70%;
+        width: 80%;
+        padding: 8px;
     }
 
     #zip {
