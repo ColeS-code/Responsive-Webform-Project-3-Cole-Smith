@@ -93,6 +93,8 @@ textarea {
     padding: 15px;
     margin-top: 10px;
     background: silver;
+    border: none;
+    
 }
 
 #copyright-footer {
